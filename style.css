@@ -1,0 +1,130 @@
+body {
+    background-color:#2C2B3D; 
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+
+
+
+}
+
+ul  {
+    color: #FFFFFF;
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+    list-style: none;
+    font-style: normal;
+    
+    position: absolute;
+    width: 306px;
+    height: 30.05px;
+    right: 0px;
+    top: 0px;
+    
+}
+ul li a:hover {
+    font-weight: bold;
+}
+
+li {
+    color: #FFFFFF;
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+
+}
+span {
+    color:#00BFA6;
+
+}
+strong {
+    color:#C2C2C2;
+}
+
+h1 {
+    color:#FFFFFF;
+    font-family: 'JetBrains Mono', monospace;
+} 
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    color:#7D7987;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    position: absolute;
+    width: 1092px;
+    height: 283px;
+    left: 99px;
+    top: 202px;
+    
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    position: absolute;
+    width: 1092px;
+    height: 283px;
+    left: 99px;
+    top: 202px;
+
+
+}
+
+.cadeado {
+    position:fixed;
+    bottom: 0;
+    left: 0;
+
+}
+
+footer {
+    font-family: 'JetBrains Mono', monospace;
+    color:#FFFFFF;
+    position: absolute;
+    width: 568px;
+    height: 55px;
+    left: 356px;
+    top: 642px;
+    
+       
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+
+    
+}
+
+#line {
+    
+    width: 568px;
+    height: 0px;
+    left: 356px;
+    top: 642px;
+
+    margin: 0px auto 23px;
+    
+
+    
+border: 1px solid #00BFA6;
+}
